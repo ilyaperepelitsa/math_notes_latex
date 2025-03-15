@@ -1,0 +1,313 @@
+\documentclass{article}  % or another class like amsart, report, book, etc.
+
+% Preamble: load necessary packages
+\usepackage{amsmath, amsthm, amssymb}  % Essential for math environments and symbols
+\usepackage{booktabs} % Provides nicer table rules
+\usepackage{tikz}
+\usepackage{amssymb}
+% Optional: Define theorem environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+% Begin document
+\begin{document}
+\section{Definitions}
+Union and intersection of A and B:
+\[
+\begin{aligned}
+    A \cup B &= \{x \mid x \in A \lor x \in B\} \\
+    A \cap B &= \{x \mid x \in A \land x \in B\} \\
+\end{aligned}
+\]
+Union and intersection for three or more sets:
+\[
+\begin{aligned}
+    A \cup B \cup C &= \{x \mid x \in A \lor x \in B \lor x \in C\} \\
+    A \cap B \cap C&= \{x \mid x \in A \land x \in B \land x \in C\} \\
+\end{aligned}
+\]
+Disjoint set:
+\[
+\begin{aligned}
+    A \cap B &= \varnothing
+\end{aligned}
+\]
+Union from 1 to n of A sub k
+\[
+\begin{aligned}
+    \bigcup_{i=1}^{n} A_i &= A_{1} \cup A_{2} \cup \cdots \cup A_{n}
+\end{aligned}
+\]
+Complement of B with respect to A:
+\[
+\begin{aligned}
+    A - B &= \{x \mid x \in A \land x \notin B\} \\
+\end{aligned}
+\]
+Complement of A:
+\[
+\begin{aligned}
+   \overline{A} &= \{x \mid x\notin A\}
+\end{aligned}
+\]
+Symmetric difference:
+\[
+\begin{aligned}
+    A \oplus B &= \{x \mid (x \in A \land x \notin B) \lor (x \in B \land x \notin A)\}
+\end{aligned}
+\]
+
+
+\section{Theorem: Algebraic properties of Set Operations}
+\subsection{Commutative Properties}
+\begin{theorem}
+\[
+    A \cup B = B \cup A
+\]
+\end{theorem}
+\begin{proof}
+
+    By definition
+    \[
+        A\cup B = \{x \mid x \in A \:\lor\: x \in B\}
+    \]
+
+    consists of all elements that belong to A or B\\
+    if x is a member in either A or B, with commutative property the only thing
+    that changes is order of checking whether $x \in A \lor \: x \in B$
+\end{proof}
+\begin{proof}
+    Bad way to prove by bruteforcing
+    \begin{table}[ht]
+    \centering
+    \begin{tabular}{cccc}
+        \toprule
+        \( x \in A \) & \( x \in B \) & \((x \in A) \lor (x \in B)\) & \((x \in B) \lor (x \in A)\) \\
+        \midrule
+        True  & True  & True  & True  \\
+        True  & False & True  & True  \\
+        False & True  & True  & True  \\
+        False & False & False & False \\
+        \bottomrule
+    \end{tabular}
+    \caption{Truth Table Demonstrating the Commutativity of \(\lor\) in Set Union}
+    \end{table}
+
+\end{proof}
+
+\begin{theorem}
+    \[
+        A \cap B = B \cap A
+    \]
+\end{theorem}
+
+\begin{proof}
+        By definition
+    \[
+        A\cap B = \{x \mid x \in A \:\land\: x \in B\}
+    \]
+
+    Both conditions must be satisfied.
+    If $x \in B$ and $x \in A$ implies that both conditions
+    have to be satisfied.
+
+\end{proof}
+
+\subsection{Associative Properties}
+\begin{theorem}
+\[
+    A\cup(B\cup C) = (A\cup B) \cup C
+\]
+\end{theorem}
+\begin{proof}
+
+\[
+\begin{aligned}
+    B \cup C &= \{x \mid x \in B \lor x \in C \} \\
+    A \cup (B \cup C) &= \{x \mid x \in A \lor (x \in B \lor x \in C)\} \\
+    A \cup (B \cup C) &= \{x \mid (x \in A \lor x \in B) \lor x \in C\} \\
+    A \cup B \cup C &= \{x \mid x \in A \lor x \in B \lor x \in C\}
+\end{aligned}
+\]
+Hence the result follows.
+\end{proof}
+
+
+\begin{theorem}
+\[
+    A\cap(B\cap C) = (A\cap B) \cap C
+\]
+\end{theorem}
+\begin{proof}
+
+\[
+\begin{aligned}
+    B \cap C &= \{x \mid x \in B \land x \in C \} \\
+    A \cap (B \cap C) &= \{x \mid x \in A \land (x \in B \land x \in C)\} \\
+    A \cap (B \cap C) &= \{x \mid (x \in A \land x \in B) \land x \in C\} \\
+    A \cap B \cap C &= \{x \mid x \in A \land x \in B \land x \in C\}
+\end{aligned}
+\]
+Hence the result follows.
+\end{proof}
+
+\subsection{Distributive Properties}
+\begin{theorem}
+    \[
+        A \cap (B \cup C) = (A \cap B) \cup (A \cap C)
+    \]
+\end{theorem}
+
+\begin{proof}
+\[
+\begin{aligned}
+    B\cup C &= \{x \mid x \in B \lor x \in C \} \\
+    A\cap (B\cup C) &= \{x| (x \in B \lor x \in C ) \land x \in A\} = (A \cap B) \cup (A \cap C)\\\\
+    (A \cap B) \cup (A \cap C)&=\{x \mid x \in (A \cap B) \lor x \in (A \cap C)\}\\
+    x \in A \cap B &= x \in A \cap x \in B\\
+    x \in A \cap C &= x \in A \cap x \in C
+\end{aligned}
+\]
+Hence the result follows.
+\end{proof}
+\begin{theorem}
+    \[
+        A \cup (B \cap C) = (A \cup B) \cap (A \cup C)
+    \]
+\end{theorem}
+
+\subsection{Idempotent Properties}
+\begin{theorem}
+    \[
+        A \cup A = A
+    \]
+\end{theorem}
+\begin{theorem}
+    \[
+        A \cap A = A
+    \]
+\end{theorem}
+
+\subsection{Properties of the Complement}
+\begin{theorem}
+    \[
+        (\overline{\overline{A}}) = A
+    \]
+\end{theorem}
+\begin{theorem}
+    \[
+        A \cup {\overline{A}} = U
+    \]
+\end{theorem}
+\begin{theorem}
+    \[
+        A \cap {\overline{A}} = \varnothing
+    \]
+\end{theorem}
+\begin{theorem}
+    \[
+        \overline{\varnothing} = U
+    \]
+\end{theorem}
+
+\begin{theorem}
+    \[
+        \overline{U} = \varnothing
+    \]
+\end{theorem}
+
+\begin{theorem}
+    \[
+        \overline{A \cup B} = \overline{A} \cap \overline{B}
+    \]
+\end{theorem}
+
+\begin{theorem}
+    \[
+        \overline{A \cap B} = \overline{A} \cup \overline{B}
+    \]
+\end{theorem}
+
+
+\subsection{Properties of a Universal Set}
+
+\begin{theorem}
+    \[
+        A \cup U = U
+    \]
+\end{theorem}
+
+
+\begin{theorem}
+    \[
+        A \cap U = A
+    \]
+\end{theorem}
+
+\subsection{Properties of the Empty Set}
+
+
+\begin{theorem}
+    \[
+        A \cup \varnothing = A \lor A \cup \{\} = A
+    \]
+\end{theorem}
+
+\begin{theorem}
+    \[
+        A \cap \varnothing = A \land A \cap \{\} = \{\}
+    \]
+\end{theorem}
+
+
+
+\subsection{Example theorem solving}
+
+\[
+\begin{aligned}
+    x &\in \overline{A \cup B}\\
+    x &\notin A \cup B\\
+    x &\notin A \land x \notin B \implies x \in \overline{A} \land x \in \overline{B} \\
+    \overline{A \cup B} &\subseteq \overline{A} \cap \overline{B}\\
+    \text{conversely } x &\in \overline{A} \cap \overline{B} \implies x \notin A \land x \notin B\\
+    x &\notin A \cup B \implies x \in \overline{A \cup B}\\
+    \{x \mid x \in \overline{A} \cap \overline{B}\} &= \{x \mid x \in \overline{A \cup B}\} \implies
+        \overline{A \cup B} = \overline{A} \cap \overline{B}
+\end{aligned}
+\]
+
+\section{Theorem:  Addition principle aka Inclusion-exclusion principle}
+
+\begin{theorem}
+If A and B are finite sets.
+\[
+    \begin{aligned}
+        |A \cup B| = |A| + |B| - |A \cap B|\\
+    \end{aligned}
+\]
+\end{theorem}
+
+\begin{proof}
+If \(A \cap B = \varnothing\), then each element of \(A \cup B\) is in either \(A\) or \(B\), but not both.
+Hence \(\displaystyle |A \cup B| = |A| + |B|\).
+
+On the other hand, if \(A \cap B \neq \varnothing\), then elements in \(A \cap B\) belong to both sets. Thus
+\(\displaystyle |A| + |B|\) double-counts them, and we must subtract \(\displaystyle |A \cap B|\).
+
+Hence the result follows.
+\end{proof}
+
+
+\begin{theorem}
+If A , B and C are finite sets
+
+\[
+    \begin{aligned}
+        |A \cup B \cup C| &= |A| + |B| + |C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|
+    \end{aligned}
+\]
+\end{theorem}
+
+\end{document}
