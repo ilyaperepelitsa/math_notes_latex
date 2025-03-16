@@ -481,6 +481,405 @@
     \end{enumerate}
 \end{problem}
 
+
+\begin{problem}
+\[
+    \begin{aligned}
+        |A| &= 6\\
+        |B| &= 8\\
+        |C| &= 6\\
+        |A \cup B \cup C| &= 11\\
+        |A \cap B| &= 3\\
+        |A \cap C| &= 2\\
+        |B \cap C| &= 5\\
+        |A \cap B \cap C| &= ?
+    \end{aligned}
+\]
+Solution
+
+\[
+    \begin{aligned}
+            |A \cup B \cup C| &= |A| + |B| + |C| \\
+            &-|A \cap B| - |A \cap C| - |B \cap C| \\
+            &+|A \cap B \cap C| \\
+    \end{aligned}
+\]
+
+    \[
+    \begin{aligned}
+            11 &= 6 + 8 + 6 - 3 - 2 - 5 + x\\
+            x &= 1
+    \end{aligned}
+\]
+
+
+\end{problem}
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       A \cap B &= B \cap A
+    \end{aligned}
+\]
+    \begin{enumerate}[label=(\alph*)]
+        Validate
+
+        \item  \( A =\{1, 2, 3, 4\}, B = \{2, 3, 5, 6, 8\}\) \\
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &= \{2, 3\} \\
+            \{x \mid x \in B \land x \in A\} &= \{2, 3\}
+        \end{align*}
+
+        \item \(A = \{1, 2, 3, 4\}, B = \{5, 6, 7, 8, 9\}\)
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &= \varnothing \\
+            \{x \mid x \in B \land x \in A\} &= \varnothing
+        \end{align*}
+
+
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       A \cap B &= B \cap A
+    \end{aligned}
+\]
+    \begin{enumerate}[label=(\alph*)]
+        Validate
+
+        \item  \(A = \{a, b, c, d, e, f\}, B = \{a, c, f, g, h, i, r\}\)\
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &= \{a, c, f\} \\
+            \{x \mid x \in B \land x \in A\} &= \{a, c, f\}
+        \end{align*}
+
+        \item \(A = \{a, b, c, d, e\}, B = \{f, g, r, s, t, u\}\)
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &= \varnothing \\
+            \{x \mid x \in B \land x \in A\} &= \varnothing
+        \end{align*}
+
+
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       A \cap B &= B \cap A
+    \end{aligned}
+\]
+    \begin{enumerate}[label=(\alph*)]
+        Validate
+
+        \item  \(A = \{x \mid x \in Z^+ \land x < 8\} = \{1, 2, 3, 4, 5, 6, 7\} \quad \\
+        B = \{x \mid x \in Z \land 2 \leq x \leq 5\} = \{2, 3, 4, 5\}\)\
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &=  \{2, 3, 4, 5\}\\
+            \{x \mid x \in B \land x \in A\} &= \{2, 3, 4, 5\}
+        \end{align*}
+
+        \item \(A = \{x \mid x \in Z^+ \land x^2 \leq 16\} = \{1, 2, 3, 4\}\\
+        B = \{x \mid x \in Z^- \land x^2 \leq 25\} = \{-1, -2, -3, -4, -5\}\)
+        \begin{align*}
+            \{x \mid x \in A \land x \in B\} &= \varnothing \\
+            \{x \mid x \in B \land x \in A\} &= \varnothing
+        \end{align*}
+
+
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       if A \cap B = \varnothing \land |A \cup B| = |A|
+    \end{aligned}
+\]
+what is true about B?
+    \begin{enumerate}[label=(\alph*)]
+
+        \begin{aligned}
+           |A \cup B| &= |A| + |B| - |A \cap B|\\
+            |A \cup B| &= |A| \implies |B| = 0 \land |A \cap B| = 0\\
+            |B| &= \varnothing \implies B = \varnothing\\
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+\[
+\overline{A \cup B} = \overline{A} \cap \overline{B}
+\]
+\textbf{Plain English Explanation:}
+
+To determine the elements in the universal set that do not belong to \(A \cup B\), first identify the elements that
+are  not in \(A\) and the elements that are not in \(B\). Then, take the intersection of these two sets. In other words,
+an element is not in \(A \cup B\) if and only if it is neither in \(A\) nor in \(B\).
+
+For example, imagine a fruit basket where \(A\) represents apples and \(B\) represents oranges. To find the fruits that
+are neither apples nor oranges, list all fruits that are not apples and all fruits that are not oranges, then select the
+fruits that appear on both lists.
+\end{problem}
+
+
+
+\begin{problem}
+\[
+\overline{A \cap B} = \overline{A} \cup \overline{B}
+\]
+\textbf{Plain English Explanation:}
+
+To determine the elements in the universal set that do not belong to \(A \cap B\), first identify the elements that
+are not in \(A\) and the elements that are not in \(B\). Then, take the union of these two sets. In other words,
+an element is not in \(A \cap B\) if and only if it is either not in \(A\) or not in \(B\).
+
+For example, consider a classroom where \(A\) represents the students who submitted their math homework, and \(B\)
+represents the students who submitted their science homework. The intersection \(A \cap B\) contains the students
+who submitted both assignments. The complement \(\overline{A \cap B}\) then includes all students who failed to
+submit at least one of the assignments. This is equivalent to taking the union of the students who did not submit
+math homework (\(\overline{A}\)) and those who did not submit science homework (\(\overline{B}\)).
+\end{problem}
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       A &= \{a, b, c, d, e\}\\
+       B &= \{d, e, f, g, h, i, k\}\\
+       C &= \{a, c, d, e, k, r, s, t\}
+    \end{aligned}
+\]
+
+Validate
+\[
+    \begin{aligned}
+        |A \cup B \cup C| &= |A| + |B| + |C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|
+    \end{aligned}
+\]
+
+\[
+    \begin{aligned}
+        ? &= 5 + 7 + 8 - |\{d, e\}| - |\{d, e, k\}| - |\{a, c, d, e\}| + |\{d, e\}|\\
+         &= 20 - 2 - 3 - 4 + 2\\
+        &= 20 - 7 = 13
+    \end{aligned}
+\]
+\end{problem}
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+       A &= \{1, 2, 3, 4, 5, 6\}\\
+       B &= \{2, 4, 7, 8, 9\}\\
+       C &= \{1, 2, 4, 7, 10, 12\}
+    \end{aligned}
+\]
+
+Validate
+\[
+    \begin{aligned}
+        |A \cup B \cup C| &= |A| + |B| + |C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|
+    \end{aligned}
+\]
+
+\[
+    \begin{aligned}
+        ? &= 6 + 5 + 6 - |\{2, 4\}| - |\{2, 4, 7\}| - |\{1, 2, 4\}| + |\{2, 4\}|\\
+        &= 17 - 2 - 3 - 3 + 2\\
+        &= 11
+    \end{aligned}
+\]
+\end{problem}
+
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+        A &= \{x \mid x \in Z^+ \land x < 8\} = \{1, 2, 3, 4, 5, 6, 7\}\\
+        B &= \{x \mid x \in Z \land 2 \leq x \leq 4\} = \{2, 3, 4\}\\
+        C &= \{x \mid x \in Z \land x^2 < 16\ = \{-3, -2, -1, 0, 1, 2, 3\}
+    \end{aligned}
+\]
+
+Validate
+\[
+    \begin{aligned}
+        |A \cup B \cup C| &= |A| + |B| + |C| - |A \cap B| - |B \cap C| - |A \cap C| + |A \cap B \cap C|
+    \end{aligned}
+\]
+
+\[
+    \begin{aligned}
+        ? &= 7 + 3 + 7 - |\{2, 3, 4\}| - |\{2, 3\}| - |\{1, 2, 3\}| + |\{2, 3\}|\\
+          &= 17 - 8 + 2 = 11
+    \end{aligned}
+\]
+\end{problem}
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+        |U| &= 260\\
+        |MATH| &= 64\\
+        |CS| &= 94\\
+        |BUS|&= 58\\
+        |MATH \cap BUS| &= 28\\
+        |MATH \cap CS| &= 26\\
+        |CS \cap BUS| &= 22\\
+        |MATH \cap CS \cap BS| &= 14
+    \end{aligned}
+\]
+
+    \begin{enumerate}[label=(\alph*)]
+        \item How many students were surveyed who had taken
+        none of the three types of courses?\\
+        \(|(\overline{MATH \cup CS \cup BUS})|\) = ?\\
+
+        \begin{aligned}
+            |(\overline{MATH \cup CS \cup BUS})| &= |U| - |MATH \cup CS \cup BUS|\\
+            |MATH \cup CS \cup BUS| &= 64 + 94 + 48 - 28 -26 - 22 + 14\\
+                                   &= 216 - 76 + 14 = 230 - 76 = 154\\
+            |U| - 144 &= 116
+        \end{aligned}
+
+        \item Of the students surveyed, how many had taken only
+            a computer science course?\\
+        \(|CS| - |MATH \cap CS| - |CS \cap BUS| + |MATH \cap CS \cap BUS|\) = ?\\\\
+        since CS intersects both and if we subtracted both intersections, the tripple
+            intersection subset would've been counted twice\\
+
+        \begin{aligned}
+            94 - 26 - 22 + 14 &= 60
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+        |U| &= 500\\
+        |FB| &= 285\\
+        |HK| &= 195\\
+        |BB| &= 115\\
+        |FB \cap BB| &= 45\\
+        |FB \cap HK| &= 70\\
+        |HK \cap BB| &= 50\\
+        |(\overline{FB \cup HK \cup BB})| &= 50
+    \end{aligned}
+\]
+
+    \begin{enumerate}[label=(\alph*)]
+        \item How many people in the survey watch all three kinds
+        of games?\\
+        \(|FB \cap HK \cap BB|\) = ?\\
+
+        \begin{aligned}
+            |FB \cup HK \cup BB| &= |FB| + |BB| + |HK|\\
+                                 &- |FB \cap BB| - |FB \cap HK| - |HK \cap BB|\\
+                                 &+ |FB \cap BB \cap HK|\\
+            &= 285 + 195 + 115 - 45 - 70 - 50 + X\\
+            &= 595 - 165 + X
+
+        \end{aligned}
+        \[
+        \begin{aligned}
+            |FB \cup HK \cup BB| &= |U| - |\overline{FB \cup HK \cup BB}| \\
+                                 &= 500 - 50 = 450 \\
+            \end{aligned}
+        \]
+
+        \[
+            \begin{aligned}
+            450 &= 595 - 165 + X \\
+            450 &= 430 + X\\
+            X &= 20 \\
+            \(|FB \cap HK \cap BB|\) &= 20
+            \end{aligned}
+        \]
+
+        \item How many people watch exactly one of the sports?\\
+
+
+        \[
+        \begin{aligned}
+        \(|FB| - |HK \cap FB| - |FB \cap BB| + |HK \cap FB \cap BB|\) &= ?\\
+        \(|HK| - |HK \cap FB| - |HK \cap BB| + |HK \cap FB \cap BB|\) &= ?\\
+        \(|BB| - |BB \cap FB| - |HK \cap BB| + |HK \cap FB \cap BB|\) &= ?\\
+
+
+            285 - 70 - 45 + 20 &= 190\\
+            195 - 70 - 50 + 20 &= 95\\
+            115 - 45 - 50 + 20 &= 40\\
+            190 + 95 + 40 &= 325
+        \end{aligned}
+        \]
+    \end{enumerate}
+\end{problem}
+
+
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+        |U| &= 166\\
+        |TV| &= 88\\
+        |PP| &= 73\\
+        |MG| &= 46\\
+        |TV \cap PP| &= 34\\
+        |TV \cap MG| &= 16\\
+        |PP \cap MG| &= 12\\
+        |PP \cup TV \cup MG| &= 5
+    \end{aligned}
+\]
+
+    \begin{enumerate}[label=(\alph*)]
+        \item How many use none of three media\\
+        \(|(\overline{TV \cup PP \cup MAG})|\) = ?\\
+
+        \begin{aligned}
+
+        \end{aligned}
+
+        \item How many obtain their news from a news magazine exclusively?\\
+        \(|PP| - |TV \cap PP| - |MG \cap PP| + |TV \cap PP \cap MG|\) = ?\\\\
+        since CS intersects both and if we subtracted both intersections, the tripple
+            intersection subset would've been counted twice\\
+
+        \begin{aligned}
+            94 - 26 - 22 + 14 &= 60
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+
 %\begin{proof}[Solution.]
 %\begin{enumerate}[label=(\alph*),leftmargin=*]
 %%    \newline

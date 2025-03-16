@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.11)  15 MAR 2025 03:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.11)  16 MAR 2025 03:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -755,14 +755,2059 @@ l.475 \]
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[8] [9]
+[8]
+./chapter_1.2__operations_on_sets__problems.tex:521: Missing $ inserted.
+<inserted text> 
+                $
+l.521 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:521: Missing } inserted.
+<inserted text> 
+                }
+l.521 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:521: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.521 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:521: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.521 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:523: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.523        A
+               \cap B &= B \cap A
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:523: Missing $ inserted.
+<inserted text> 
+                $
+l.523        A
+               \cap B &= B \cap A
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[9]
+./chapter_1.2__operations_on_sets__problems.tex:524: Missing $ inserted.
+<inserted text> 
+                $
+l.524     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:525: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.525 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:525: Missing $ inserted.
+<inserted text> 
+                $
+l.525 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:525: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.525 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
+./chapter_1.2__operations_on_sets__problems.tex:548: Missing $ inserted.
+<inserted text> 
+                $
+l.548 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:548: Missing } inserted.
+<inserted text> 
+                }
+l.548 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:548: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.548 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:548: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.548 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:550: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.550        A
+               \cap B &= B \cap A
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:550: Missing $ inserted.
+<inserted text> 
+                $
+l.550        A
+               \cap B &= B \cap A
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:551: Missing $ inserted.
+<inserted text> 
+                $
+l.551     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:552: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:552: Missing $ inserted.
+<inserted text> 
+                $
+l.552 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:552: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.552 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:575: Missing $ inserted.
+<inserted text> 
+                $
+l.575 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:575: Missing } inserted.
+<inserted text> 
+                }
+l.575 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:575: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.575 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:575: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.575 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:577: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.577        A
+               \cap B &= B \cap A
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:577: Missing $ inserted.
+<inserted text> 
+                $
+l.577        A
+               \cap B &= B \cap A
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:578: Missing $ inserted.
+<inserted text> 
+                $
+l.578     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:579: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.579 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:579: Missing $ inserted.
+<inserted text> 
+                $
+l.579 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:579: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.579 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[10]
+./chapter_1.2__operations_on_sets__problems.tex:604: Missing $ inserted.
+<inserted text> 
+                $
+l.604 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:604: Missing } inserted.
+<inserted text> 
+                }
+l.604 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:604: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.604 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:604: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.604 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:606: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.606        i
+              f A \cap B = \varnothing \land |A \cup B| = |A|
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:606: Missing $ inserted.
+<inserted text> 
+                $
+l.606        i
+              f A \cap B = \varnothing \land |A \cup B| = |A|
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:607: Missing $ inserted.
+<inserted text> 
+                $
+l.607     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:608: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.608 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:608: Missing $ inserted.
+<inserted text> 
+                $
+l.608 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:608: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.608 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:613: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.613            |
+                  A \cup B| &= |A| + |B| - |A \cap B|\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:613: Missing $ inserted.
+<inserted text> 
+                $
+l.613            |
+                  A \cup B| &= |A| + |B| - |A \cap B|\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:616: Missing $ inserted.
+<inserted text> 
+                $
+l.616         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[11]
+./chapter_1.2__operations_on_sets__problems.tex:659: Missing $ inserted.
+<inserted text> 
+                $
+l.659 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:659: Missing } inserted.
+<inserted text> 
+                }
+l.659 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:659: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.659 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:659: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.659 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:661: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.661        A
+               &= \{a, b, c, d, e\}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:661: Missing $ inserted.
+<inserted text> 
+                $
+l.661        A
+               &= \{a, b, c, d, e\}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:664: Missing $ inserted.
+<inserted text> 
+                $
+l.664     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:665: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:665: Missing $ inserted.
+<inserted text> 
+                $
+l.665 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:665: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.665 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:687: Missing $ inserted.
+<inserted text> 
+                $
+l.687 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:687: Missing } inserted.
+<inserted text> 
+                }
+l.687 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:687: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.687 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:687: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.687 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:689: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.689        A
+               &= \{1, 2, 3, 4, 5, 6\}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:689: Missing $ inserted.
+<inserted text> 
+                $
+l.689        A
+               &= \{1, 2, 3, 4, 5, 6\}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:692: Missing $ inserted.
+<inserted text> 
+                $
+l.692     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:693: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:693: Missing $ inserted.
+<inserted text> 
+                $
+l.693 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:693: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.693 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:716: Missing $ inserted.
+<inserted text> 
+                $
+l.716 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:716: Missing } inserted.
+<inserted text> 
+                }
+l.716 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:716: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.716 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:716: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.716 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:718: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718         A
+                &= \{x \mid x \in Z^+ \land x < 8\} = \{1, 2, 3, 4, 5, 6, 7\}\\
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:718: Missing $ inserted.
+<inserted text> 
+                $
+l.718         A
+                &= \{x \mid x \in Z^+ \land x < 8\} = \{1, 2, 3, 4, 5, 6, 7\}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:721: Missing $ inserted.
+<inserted text> 
+                $
+l.721     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:722: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.722 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:722: Missing $ inserted.
+<inserted text> 
+                $
+l.722 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:722: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.722 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[12]
+./chapter_1.2__operations_on_sets__problems.tex:743: Missing $ inserted.
+<inserted text> 
+                $
+l.743 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:743: Missing } inserted.
+<inserted text> 
+                }
+l.743 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:743: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.743 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:743: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.743 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:745: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.745         |
+               U| &= 260\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:745: Missing $ inserted.
+<inserted text> 
+                $
+l.745         |
+               U| &= 260\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:753: Missing $ inserted.
+<inserted text> 
+                $
+l.753     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:754: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.754 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:754: Missing $ inserted.
+<inserted text> 
+                $
+l.754 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:754: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.754 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 757--760
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:762: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.762             |
+                   (\overline{MATH \cup CS \cup BUS})| &= |U| - |MATH \cup C...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:762: Missing $ inserted.
+<inserted text> 
+                $
+l.762             |
+                   (\overline{MATH \cup CS \cup BUS})| &= |U| - |MATH \cup C...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:766: Missing $ inserted.
+<inserted text> 
+                $
+l.766         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 768--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 768--773
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:775: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.775             9
+                   4 - 26 - 22 + 14 &= 60
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:775: Missing $ inserted.
+<inserted text> 
+                $
+l.775             9
+                   4 - 26 - 22 + 14 &= 60
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:776: Missing $ inserted.
+<inserted text> 
+                $
+l.776         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:784: Missing $ inserted.
+<inserted text> 
+                $
+l.784 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:784: Missing } inserted.
+<inserted text> 
+                }
+l.784 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:784: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.784 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:784: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.784 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:786: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.786         |
+               U| &= 500\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:786: Missing $ inserted.
+<inserted text> 
+                $
+l.786         |
+               U| &= 500\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:794: Missing $ inserted.
+<inserted text> 
+                $
+l.794     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:795: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:795: Missing $ inserted.
+<inserted text> 
+                $
+l.795 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:795: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.795 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 798--801
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:803: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.803             |
+                   FB \cup HK \cup BB| &= |FB| + |BB| + |HK|\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:803: Missing $ inserted.
+<inserted text> 
+                $
+l.803             |
+                   FB \cup HK \cup BB| &= |FB| + |BB| + |HK|\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing $ inserted.
+<inserted text> 
+                $
+l.808 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing } inserted.
+<inserted text> 
+                }
+l.808 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing } inserted.
+<inserted text> 
+                }
+l.808 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing } inserted.
+<inserted text> 
+                }
+l.808 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.808 
+      
+I'm guessing that you meant to end an alignment here.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing { inserted.
+<inserted text> 
+                {
+l.808 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:808: Missing $ inserted.
+<inserted text> 
+                $
+l.808 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:809: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.809         \end{aligned}
+                           
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:809: Extra }, or forgotten $.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.809         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:809: Extra }, or forgotten $.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.809         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:809: Missing $ inserted.
+<inserted text> 
+                $
+l.809         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:822: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.822             \(
+                    |FB \cap HK \cap BB|\) &= 20
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:822: Missing } inserted.
+<inserted text> 
+                }
+l.822             \(|FB \cap HK \cap BB|\)
+                                           &= 20
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:822: Missing { inserted.
+<inserted text> 
+                {
+l.822             \(|FB \cap HK \cap BB|\) &
+                                            = 20
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:822: Missing $ inserted.
+<inserted text> 
+                $
+l.822             \(|FB \cap HK \cap BB|\) &
+                                            = 20
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:831: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.831         \(
+                |FB| - |HK \cap FB| - |FB \cap BB| + |HK \cap FB \cap BB|\) ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:831: Missing } inserted.
+<inserted text> 
+                }
+l.831 ...| - |FB \cap BB| + |HK \cap FB \cap BB|\)
+                                                   &= ?\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:831: Missing { inserted.
+<inserted text> 
+                {
+l.831 ...- |FB \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:831: Missing $ inserted.
+<inserted text> 
+                $
+l.831 ...- |FB \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:832: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.832         \(
+                |HK| - |HK \cap FB| - |HK \cap BB| + |HK \cap FB \cap BB|\) ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:832: Missing } inserted.
+<inserted text> 
+                }
+l.832 ...| - |HK \cap BB| + |HK \cap FB \cap BB|\)
+                                                   &= ?\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:832: Missing { inserted.
+<inserted text> 
+                {
+l.832 ...- |HK \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:832: Missing $ inserted.
+<inserted text> 
+                $
+l.832 ...- |HK \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:833: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.833         \(
+                |BB| - |BB \cap FB| - |HK \cap BB| + |HK \cap FB \cap BB|\) ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:833: Missing } inserted.
+<inserted text> 
+                }
+l.833 ...| - |HK \cap BB| + |HK \cap FB \cap BB|\)
+                                                   &= ?\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:833: Missing { inserted.
+<inserted text> 
+                {
+l.833 ...- |HK \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:833: Missing $ inserted.
+<inserted text> 
+                $
+l.833 ...- |HK \cap BB| + |HK \cap FB \cap BB|\) &
+                                                  = ?\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing $ inserted.
+<inserted text> 
+                $
+l.834 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing } inserted.
+<inserted text> 
+                }
+l.834 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing } inserted.
+<inserted text> 
+                }
+l.834 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing } inserted.
+<inserted text> 
+                }
+l.834 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.834 
+      
+I'm guessing that you meant to end an alignment here.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing { inserted.
+<inserted text> 
+                {
+l.834 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:834: Missing $ inserted.
+<inserted text> 
+                $
+l.834 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:835: Missing $ inserted.
+<inserted text> 
+                $
+l.835 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:835: Missing } inserted.
+<inserted text> 
+                }
+l.835 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:835: Missing \endgroup inserted
+.
+<inserted text> 
+                \endgroup 
+l.835 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:835: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.835 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:835: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.835 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:836: Misplaced alignment tab ch
+aracter &.
+l.836             285 - 70 - 45 + 20 &
+                                      = 190\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:837: Misplaced alignment tab ch
+aracter &.
+l.837             195 - 70 - 50 + 20 &
+                                      = 95\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:838: Misplaced alignment tab ch
+aracter &.
+l.838             115 - 45 - 50 + 20 &
+                                      = 40\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:839: Misplaced alignment tab ch
+aracter &.
+l.839             190 + 95 + 40 &
+                                 = 325
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:840: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.840         \end{aligned}
+                           
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:840: Extra }, or forgotten \end
+group.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.840         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:840: Extra }, or forgotten \end
+group.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.840         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:840: LaTeX Error: \begin{equati
+on*} on input line 829 ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.840         \end{aligned}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:841: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.841         \]
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:841: LaTeX Error: \begin{enumer
+ate} on input line 797 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.841         \]
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:841: Missing $ inserted.
+<inserted text> 
+                $
+l.841         \]
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:841: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.841         \]
+                
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Undefined control sequence
+.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.842     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Undefined control sequence
+.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.842     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Missing number, treated as
+ zero.
+<to be read again> 
+                   =
+l.842     \end{enumerate}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Undefined control sequence
+.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.842     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Undefined control sequence
+.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.842     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Missing number, treated as
+ zero.
+<to be read again> 
+                   =
+l.842     \end{enumerate}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapter_1.2__operations_on_sets__problems.tex:842: Undefined control sequence
+.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.842     \end{enumerate}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:842: LaTeX Error: \begin{proble
+m} on input line 782 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.842     \end{enumerate}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:843: LaTeX Error: \begin{docume
+nt} ended by \end{problem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.843 \end{problem}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:843: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.843 \end{problem}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+./chapter_1.2__operations_on_sets__problems.tex:849: Missing $ inserted.
+<inserted text> 
+                $
+l.849 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:849: Missing } inserted.
+<inserted text> 
+                }
+l.849 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:849: Display math should end wi
+th $$.
+<to be read again> 
+                   \tex_par:D 
+l.849 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./chapter_1.2__operations_on_sets__problems.tex:849: Extra }, or forgotten \end
+group.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.849 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:851: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.851         |
+               U| &= 166\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:851: Missing $ inserted.
+<inserted text> 
+                $
+l.851         |
+               U| &= 166\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[14]
+./chapter_1.2__operations_on_sets__problems.tex:859: Missing $ inserted.
+<inserted text> 
+                $
+l.859     \end{aligned}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./chapter_1.2__operations_on_sets__problems.tex:860: LaTeX Error: Bad math envi
+ronment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.860 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapter_1.2__operations_on_sets__problems.tex:860: Missing $ inserted.
+<inserted text> 
+                $
+l.860 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:860: Display math should end wi
+th $$.
+<to be read again> 
+                   \endgroup 
+l.860 \]
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--865
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.867 
+      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing $ inserted.
+<inserted text> 
+                $
+l.867 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing $ inserted.
+<inserted text> 
+                $
+l.867 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing } inserted.
+<inserted text> 
+                }
+l.867 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing } inserted.
+<inserted text> 
+                }
+l.867 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing } inserted.
+<inserted text> 
+                }
+l.867 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.867 
+      
+I'm guessing that you meant to end an alignment here.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing { inserted.
+<inserted text> 
+                {
+l.867 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./chapter_1.2__operations_on_sets__problems.tex:867: Missing $ inserted.
+<inserted text> 
+                $
+l.867 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:868: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.868         \end{aligned}
+                           
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapter_1.2__operations_on_sets__problems.tex:868: Extra }, or forgotten $.
+\endaligned ->\crcr \egroup 
+                            \restorecolumn@ \egroup 
+l.868         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:868: Extra }, or forgotten $.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.868         \end{aligned}
+                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapter_1.2__operations_on_sets__problems.tex:868: Missing $ inserted.
+<inserted text> 
+                $
+l.868         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--874
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--874
+
+ []
+
+
+./chapter_1.2__operations_on_sets__problems.tex:876: Package amsmath Error: \be
+gin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.876             9
+                   4 - 26 - 22 + 14 &= 60
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./chapter_1.2__operations_on_sets__problems.tex:876: Missing $ inserted.
+<inserted text> 
+                $
+l.876             9
+                   4 - 26 - 22 + 14 &= 60
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chapter_1.2__operations_on_sets__problems.tex:877: Missing $ inserted.
+<inserted text> 
+                $
+l.877         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[15]
 (/home/yamacake/PycharmProjects/maths/out/chapter_1.2__operations_on_sets__prob
 lems.aux) ) 
 Here is how much of TeX's memory you used:
- 13799 strings out of 480247
- 275520 string characters out of 5896151
- 536233 words of memory out of 5000000
- 31510 multiletter control sequences out of 15000+600000
+ 13800 strings out of 480247
+ 275543 string characters out of 5896151
+ 536235 words of memory out of 5000000
+ 31511 multiletter control sequences out of 15000+600000
  472829 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  100i,9n,104p,443b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -772,14 +2817,15 @@ Here is how much of TeX's memory you used:
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/stmaryrd/stmary10.pfb>
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/stmaryrd/stmary10.pfb>
 Output written on /home/yamacake/PycharmProjects/maths/out/chapter_1.2__operati
-ons_on_sets__problems.pdf (9 pages, 104658 bytes).
+ons_on_sets__problems.pdf (15 pages, 128224 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
