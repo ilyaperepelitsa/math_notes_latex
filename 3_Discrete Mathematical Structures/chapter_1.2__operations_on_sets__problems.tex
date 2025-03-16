@@ -851,11 +851,11 @@ Validate
         |U| &= 166\\
         |TV| &= 88\\
         |PP| &= 73\\
-        |MG| &= 46\\
+        |MAG| &= 46\\
         |TV \cap PP| &= 34\\
         |TV \cap MG| &= 16\\
         |PP \cap MG| &= 12\\
-        |PP \cup TV \cup MG| &= 5
+        |PP \cap TV \cap MG| &= 5
     \end{aligned}
 \]
 
@@ -864,20 +864,326 @@ Validate
         \(|(\overline{TV \cup PP \cup MAG})|\) = ?\\
 
         \begin{aligned}
-
+            |TV \cup PP \cup MAG| &= |PP| + |TV| + |MAG|\\
+                                 &- |PP \cap TV| - |PP \cap MAG| - |MAG \cap TV|\\
+                                 &+ |PP \cap TV \cap MAG|\\
+                                &= 88 + 73 + 46 - 34 - 16 - 12 + 5\\
+                                &= 207 - 62 + 5\\
+                                &= 150\\
         \end{aligned}
 
+        \begin{aligned}
+            |\overline{TV \cup PP \cup MAG}| &= |U| - 150 = 16
+        \end{aligned}
         \item How many obtain their news from a news magazine exclusively?\\
-        \(|PP| - |TV \cap PP| - |MG \cap PP| + |TV \cap PP \cap MG|\) = ?\\\\
-        since CS intersects both and if we subtracted both intersections, the tripple
-            intersection subset would've been counted twice\\
+        \(|MAG| - |TV \cap MAG| - |MAG \cap PP| + |TV \cap PP \cap MAG|\) = ?\\\\
 
         \begin{aligned}
-            94 - 26 - 22 + 14 &= 60
+            46 - 16 - 12 + 5 &= 23
         \end{aligned}
     \end{enumerate}
 \end{problem}
 
+
+\begin{problem}
+\[
+
+    \begin{aligned}
+        |U| &= 100\\
+        |FR| &= 37\\
+        |VG| &= 33\\
+        |CH| - |CH \cap VG| - |CH \cap FR| + |CH \cap FR \cap VG|&= 12\\
+        |CH \cap FR| &= 9\\
+        |CH \cap VG| &= 12\\
+        |FR \cap VG| &= 10\\
+        |FR  \cap CH \cap VG| &= 3
+
+    \end{aligned}
+\]
+
+    \begin{enumerate}[label=(\alph*)]
+        \item How many people surveyed eat cheese\\
+        \(|CH|\) = ?\\
+
+        \begin{aligned}
+            |CH| - |CH \cap VG| - |CH \cap FR| + |CH \cap FR \cap VG|&= 12\\
+            |CH| - 12 - 9 + 3 &= 12\\
+            |CH| &= 30
+        \end{aligned}
+
+        \begin{aligned}
+            |\overline{CH \cup VG \cup FR}| &= ?\\
+            &= |U| - |CH \cup VG \cup FR|
+        \end{aligned}
+        \item How many do not eat any of the offerings?\\
+
+        \begin{aligned}
+            |CH \cup VG \cup FR| &= |CH| + |VG| + |FR|\\
+                     &- |CH \cap VG| - |CH \cap FR| - |VG \cap FR|\\
+                     &+ |CH \cap VG \cap FR|\\
+            &= 30 + 37 + 33 - 9 - 12 - 10 + 3\\
+            &= 100 - 28\\
+            &= 72
+        \end{aligned}
+
+        \begin{aligned}
+            |U| &- |CH \cup VG \cup FR|\\
+            &= 100 - 72\\
+            &= 28
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+    Consider the following table:
+
+    \begin{center}
+        \begin{tabular}{lccc}
+            \toprule
+                      & Endo & Ecto & Meso \\
+            \midrule
+            Male    & 72   & 54   & 36   \\
+            Female  & 62   & 64   & 38   \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    \captionof{}{Classification of subjects by body type and gender.}
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \( |MAL| = |ENDO| + |ECTO| + |MESO| = 72 + 54 + 36 = 162 \)
+        \item \( |ECTO| = |MAL \cap ECTO| + |FEM \cap ECTO| = 54 + 64 = 118 \)
+        \item \( |FEM \cup ENDO| = |F| + |M \cap ENDO| = 62 + 64 + 38 + 72 = 110 + 126 = 236 \)
+        \item \(|\overline{MAL \cap MESO}| = |F| + |M \cap ENDO| + |M \cap ECTO| = 164 + 72 + 54 = 290\)
+        \item \(|MAL \cup ECTO \cup MESO| = |ECTO| + |MESO| + |M \cap ENDO| = 264\)
+    \end{enumerate}
+\end{problem}
+
+\begin{problem}
+    Consider the following table:
+
+    \begin{center}
+        \begin{tabular}{lccc}
+            \toprule
+                      & DE & UD \\
+            \midrule
+            Sophomore    & 143   & 289  \\
+            Junior  & 245   & 158   \\
+            Senior  & 392   & 36   \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    \captionof{}{information about the sophomore, junior, and senior classes at Old U}
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(|D \cap J| = 245 \text{  Juniors who declared major}\)
+        \item \(|\overline{U \cup R|} = 143 + 245 = 388 \text{ everyone who's neither undeclared nor a senior }\)
+        \item \(|(D \cup S ) \cap \overline{R}| = 143 + 289 + 245 = 677 \text{ Everyone who's either declared or
+        sophmore excluding seniors}\)
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+    Diagram of the previous problem's table. Mutually exclusive and collectively exhaustive.
+
+    \begin{tikzpicture}[font=\small]
+        % Draw outer rectangle: width = 4, height = 6
+        \draw (0,0) rectangle (4,6);
+
+        % Draw vertical division at x = 2 (splitting DE and UD)
+        \draw (2,0) -- (2,6);
+
+        % Draw horizontal divisions at y = 2 and y = 4 (splitting the three rows)
+        \draw (0,2) -- (4,2);
+        \draw (0,4) -- (4,4);
+
+        % Place cell values (centers of cells)
+        % Top row (y between 4 and 6): Sophomore
+        \node at (1,5) {143};  % DE column
+        \node at (3,5) {289};  % UD column
+
+        % Middle row (y between 2 and 4): Junior
+        \node at (1,3) {245};  % DE column
+        \node at (3,3) {158};  % UD column
+
+        % Bottom row (y between 0 and 2): Senior
+        \node at (1,1) {392};  % DE column
+        \node at (3,1) {36};   % UD column
+
+        % Label the rows to the left of the rectangle
+        \node[left] at (0,5) {Sophomore};
+        \node[left] at (0,3) {Junior};
+        \node[left] at (0,1) {Senior};
+
+        % Label the columns above the rectangle
+        \node[above] at (1,6) {DE};
+        \node[above] at (3,6) {UD};
+    \end{tikzpicture}
+
+
+\end{problem}
+
+
+\begin{problem}
+    Complete the following proof that $A \subseteq A \cup B$. Suppose $x \in A$. Then $x \in A \cup B$, because x
+    by definition is an element of A and $\A \cup B$ condition is automatically satisfied, as with any union.
+    Thus by the deﬁnition of subset $A \subseteq A \cup B$
+\end{problem}
+
+
+\begin{problem}
+    Choose $x \in A \cap B$, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(x \in A \) = True
+        \item \(x \in B\) = True
+        \item \(x \notin A \) = False since $x \in A \cap B \implies x \in A \land x \in B$
+        \item \(x \notin B\) = False, same as c
+    \end{enumerate}
+\end{problem}
+
+\begin{problem}
+    Choose $y \in A \cup B$, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(y \in A\) = True
+        \item \(y \in B\) = True
+        \item \(y \notin A\) = False
+        \item \(y \notin B\) = False
+        \item \(y \in A \cap B\) = impossible to determine - can be $y \in A \land y \notin B$
+        \item \(y \notin A \cap B\) = impossible to determine, same as `e`
+    \end{enumerate}
+\end{problem}
+
+\begin{problem}
+Choose $z \in A \cup (B \cap C) $, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(z \in A\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+        \item \(z \in B\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+        \item \(z \in C\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+        \item \(z \in B \cap C\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+        \item \(z \notin A\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+        \item \(z \notin C\) = impossible to determine, could be $z \in A \lor z \in B \cap C$
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+Choose $w \in D \cap (E \cup F) $, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(w \in D\) = True
+        \item \(w \in E\) = impossible to determine, $w \in E \lor w \in F$
+        \item \(w \in F\) = impossible to determine, same as above
+        \item \(w \notin D\) = False
+        \item \(w \in F \cup E\) = True
+        \item \(w \in (D \cap E) \cup (D \cap F)\) = True, due to distributive property
+    \end{enumerate}
+\end{problem}
+
+\begin{problem}
+Choose $t \in \overline{D \cap E}$, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(t \in D\) = impossible to determine, could belong to D, E or $\overline{D \cup E}$
+        \item \(t \in E\) = impossible to determine, same as above
+        \item \(t \notin D\) = impossible to determine
+        \item \(t \notin E\) = impossible to determine
+        \item \(t \in D \cup E\) = impossible to determine
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+Choose $x \in \overline{A} \cup (B \cap C)$, classify whether each statement is true, false or not possible to identify
+
+    \begin{enumerate}[label=(\alph*)]
+        \item \(x \in A\) = impossible to determine as we don't know much about $B \cap C$
+        \item \(x \in B\) = impossible to determine, could also be in whatever $\overline{A}$ is
+        \item \(x \in C\) = impossible to determine, same as above
+        \item \(x \in A \cup B\) = impossible to determine
+        \item \(x \in (\overline{A} \cup B) \cap (\overline{A} \cup C)\)\\
+        \begin{aligned}
+            x $\in (\overline{A} \cup B) \cap (\overline{A} \cup C)\\
+              $\overline{A} \cup (B \cap C) = \text{True by definition}
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+Complete the proof that $A \cap B \subseteq A$\\
+    Suppose that $x \in A\cap B$. Then $x \in A \land x \in B$.
+    Thus $A \cap B \subseteq A$
+
+\end{problem}
+
+
+\begin{problem}
+    \begin{enumerate}[label=(\alph*)]
+        \item \(\text{Draw Venn diagram to represent C} \subseteq A \land C \subseteq B\)
+            \begin{center}
+            \begin{tikzpicture}[scale=1]
+                % Draw circle A and label it
+                \draw[thick] (-1,0) circle (2cm);
+                \node[above left] at (-3,0) {$A$};
+
+                % Draw circle B and label it
+                \draw[thick] (1,0) circle (2cm);
+                \node[above right] at (3,0) {$B$};
+
+                % Draw circle C entirely within the intersection of A and B
+                \draw[thick] (0,0) circle (0.8cm);
+                \node[below] at (0,-0.8) {$C$};
+            \end{tikzpicture}
+            \end{center}
+        \item \(\text{To prove } C \subseteq A \cup B \text{ we should choose an element from which set?}\) Set C
+        because we're proving that all points of C either belong to A or B
+        \item Prove that \(C \subseteq A \land C \subseteq B \implies C \subseteq A \cup B\)\\
+        \begin{aligned}
+            x &- \text{ arbitrary element of C}\\
+            C & \subseteq A \implies  x \in A\\
+            x \in A & \implies x \in A \cup B\\
+            &\text{then } C \subseteq A \cup B
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+    \begin{enumerate}[label=(\alph*)]
+        \item \(\text{Draw Venn diagram to represent} A \subseteq C \land B \subseteq C\)
+            \begin{center}
+            \begin{tikzpicture}[scale=1]
+                % Draw big circle C
+                \draw[thick] (0,0) circle (3cm);
+                \node[above] at (0,3) {$C$};
+
+                % Draw circle A inside C (on the left)
+                \draw[thick] (-1,0) circle (1cm);
+                \node[below] at (-1,-1) {$A$};
+
+                % Draw circle B inside C (on the right)
+                \draw[thick] (1,0) circle (1cm);
+                \node[below] at (1,-1) {$B$};
+            \end{tikzpicture}
+            \end{center}
+        \item \(\text{To prove } A \cup B \subseteq C \text{ we should choose an element from which set?}\) From
+        either A or B
+        \item Prove that if \(A \subseteq C \land B \subseteq C \implies A \cup B \subseteq C\)\\
+        \begin{aligned}
+            x &- \text{arbitrary element of } A \cup B\\
+            x & \in A \lor/\land x \in B\\
+            x & \in A \implies x \in C \text{ since } A \subseteq C\\
+            x & \in B \implies x \in C \text{ since } B \subseteq C\\
+            x &\in C \implies A \cup B \subseteq C
+
+
+        \end{aligned}
+    \end{enumerate}
+\end{problem}
 
 
 %\begin{proof}[Solution.]
